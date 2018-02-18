@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Out of the Blox</title>
+        <link rel='icon' href='/favicon.ico'>
+        <link rel='stylesheet' type='text/css' href='/css/reset.css' />
+        <link rel='stylesheet' type='text/css' href='/css/screen.css' />
+        <style>
+        </style>
+    </head>
+<body>
+    <header></header>
+    <nav>
+        <a href='/about.html'>About</a>
+        <a href='/projects.html'>Projects</a>
+        <a href='/contact.html'>Contact</a>
+    </nav>
+    <main>
+        <article>
+            <h1>Secure MQTT on the ESP8266</h1>
+            <p>Many MQTT applications for the ESP8266 communicate with services over the internet on insecure channels. Often a username and password is needed to access the service giving the impression that only the end user can access the data, the service and the devices. But since communication is done over an insecure channel the username and password are exposed as plain text giving a malicious hacker the oportunity to not only access data but maybe even control devices.</p>
+            <p>The ESP8266 is a cheap affordable processor that has built in WiFi making it easy to build wireless IoT applications for domestic use since WiFi networks are plenty available. The memory and speed of this chip is enough to be able to implement modern strong security features. The OutOfTheBlox framework makes sure that secure IoT applications are easy to set up. For making sure that communication is done in a secure way it relies on the latest TLS standards which are also used for https. After the service is setup the developer just has to place two files on the ESP, one with credentials to access the WiFi network and one with credentials to access the service over TLS. The framework automatically sets up the secure channel to the service.</p>
+            <a href='https://github.com/outoftheblox/Thing'>github</a><br/>
+        </article>
+    </main>
+    <footer></footer>
+</body>
+</html>

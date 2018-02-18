@@ -1,0 +1,66 @@
+body, * {
+    font-family: monospace;
+    font-size: 12pt;
+    background-color: white;
+    color: black;
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+    background: url('../img/blox-1024x200.png') no-repeat top center fixed;
+    background-size: contain;
+}
+header {
+    height: 200px;
+    width: 100%;
+    opacity: 0;
+}
+nav {
+    height: 3em;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+nav a {
+    margin: 0 1em;
+}
+main {
+    width: 100%;
+    min-width: 800px;
+    height: calc(100% - 300px);
+}
+address {
+    width: 800px;
+    min-width: 800px;
+    margin: 2ex;
+    line-height: 1.2;
+}
+p {
+    padding: 1em 0;
+    line-height: 1.2;
+}
+h1 {
+    padding: 1em 0;
+    font-size: 150%;
+}
+article {
+    width: 800px;
+    margin-bottom: 3em;
+    margin:  auto;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    font-style: italic;
+}
